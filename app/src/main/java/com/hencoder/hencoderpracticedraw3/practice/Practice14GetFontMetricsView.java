@@ -31,7 +31,7 @@ public class Practice14GetFontMetricsView extends View {
     {
         paint1.setStyle(Paint.Style.STROKE);
         paint1.setStrokeWidth(20);
-        paint1.setColor(Color.parseColor("#E91E63"));
+        paint1.setColor(Color.parseColor("#E91E64"));
         paint2.setTextSize(160);
         Paint.FontMetrics fontMetrics = paint2.getFontMetrics();
         mFloat = -(fontMetrics.descent+fontMetrics.ascent)/2;
